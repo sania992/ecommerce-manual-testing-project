@@ -1,0 +1,89 @@
+# TEST SUMMARY REPORT
+
+## 1. Project Information
+
+**Project Name:** E-Commerce Website – Manual Testing
+**Testing Type:** Manual Testing
+**Testing Approach:** Functional Testing
+**Defect Tracking Tool:** Jira
+**Test Case Management:** Excel
+
+---
+
+## 2. Testing Objective
+
+The objective of this testing project was to verify the functionality, usability, validation, and end-to-end flow of an e-commerce website and identify defects before release.
+
+---
+
+## 3. Scope of Testing
+
+The following modules and functionalities were tested:
+
+* Login
+* Product Listing
+* Product Sorting
+* Shopping Cart
+* Checkout
+* Order Placement
+* Order Completion
+* Order PDF Generation
+
+---
+
+## 4. Testing Performed
+
+The following testing activities were performed:
+
+* Functional Testing
+* Positive Testing
+* Negative Testing
+* Validation Testing
+* End-to-End Testing
+* Regression/Re-testing practice
+
+---
+
+## 5. Test Execution Summary
+
+| Metric                    | Result |
+| ------------------------- | -----: |
+| Total Test Cases          |     20 |
+| Passed                    |     16 |
+| Failed                    |      4 |
+| Pass Percentage           |    80% |
+| Fail Percentage           |    20% |
+| Unique Defects Identified |      3 |
+
+---
+
+## 6. Defect Summary
+
+| Bug ID | Defect                                             | Status      |
+| ------ | -------------------------------------------------- | ----------- |
+| Bug #1 | Last Name field does not accept text input         | In Progress |
+| Bug #2 | Product image is not displayed in the cart         | In Progress |
+| Bug #3 | Postal Code field accepts invalid alphabetic input | In Progress |
+
+---
+
+## 7. Key Findings
+
+* Login functionality and validations worked as expected.
+* Product sorting functionality worked correctly.
+* Product removal from cart worked correctly.
+* Checkout required-field validations worked correctly.
+* Order completion and PDF generation worked successfully.
+* The Last Name field did not accept valid text input.
+* Product image was not displayed in the cart.
+* Postal Code validation allowed alphabetic input such as `abc`.
+
+---
+
+## 8. Overall Conclusion
+
+A total of 20 test cases were executed across the major e-commerce workflows. 16 test cases passed and 4 failed, resulting in an 80% pass rate.
+
+Three unique defects were identified and reported in Jira with reproduction steps, expected results, actual results, and priority. The identified defects should be fixed and subsequently retested before considering the application ready for final release.
+
+**Overall Testing Status: Conditional – Defects Require Fixing and Re-testing**
